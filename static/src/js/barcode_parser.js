@@ -142,7 +142,7 @@ BarcodeParser.include({
 
             console.log(pattern);
             console.log(encoding);
-            if(pattern == "20....{NNDDDD}"||pattern == "21....{NNDDDD}") {
+            if(pattern == "2.....{NNDDDD}"||pattern == "21....{NNDDDD}") {
                 console.log(barcode.slice(0, 10));
                 barcode=barcode.slice(0, 11);
                 console.log(barcode);
